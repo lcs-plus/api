@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::namespace('Mq')->group(function (){
+
+    Route::get('/mq','MqController@index');
+
+});
