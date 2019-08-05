@@ -20,4 +20,6 @@ Route::namespace('Mq')->group(function (){
 
     Route::get('/mq','MqController@index');
 
+    Route::get('/send','MqController@send');
+
 });
