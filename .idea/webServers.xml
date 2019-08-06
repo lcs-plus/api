@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4673ab8b-c6a2-4ead-afc9-ff29e13bffed" name="mq" url="http://129.28.153.237">
+        <fileTransfer host="129.28.153.237" port="22" rootFolder="/home/ubuntu/php/mq" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

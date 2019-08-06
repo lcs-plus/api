@@ -21,8 +21,6 @@ class MqController extends Controller
 
     public function index()
     {
-
-
         $config = $this->config;
 
 
@@ -71,7 +69,7 @@ class MqController extends Controller
 
             $channel->queue_bind($queue, $exchange);
 
-            $messageBody = 'ceshi'.$i;
+            $messageBody = 'ceshi' . $i;
 
             $message = new AMQPMessage($messageBody, ['content-type' => 'text/plain', 'delivery_mode' => AMQPMessage::DELIVERY_MODE_PERSISTENT]);
 
